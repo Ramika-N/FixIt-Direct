@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">FixIt-Direct</string>
+    <string name="login_welcome_txt">Welcome</string>
+    <string name="login_welcome_txt2">Log in to your account</string>
+    <string name="login_forgot_pasword_txt">Forgot Password</string>
+    <string name="login_btn_txt">Log In</string>
+    <string name="login_to_register_btn_txt">Don\'t have an acoount?</string>
+    <string name="login_to_register_btn_txt2">Register</string>
 </resources>
