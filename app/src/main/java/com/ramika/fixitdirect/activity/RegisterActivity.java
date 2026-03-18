@@ -14,28 +14,28 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.ramika.fixitdirect.R;
 
-public class LoginActivity extends AppCompatActivity {
+public class RegisterActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_register);
 
-        TextView registerLink = findViewById(R.id.tvSignUpLink);
-        registerLink.setOnClickListener(new View.OnClickListener() {
+        TextView loginLink = findViewById(R.id.tvLoginLink);
+        loginLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(LoginActivity.this, RegisterActivity.class);
+                Intent i = new Intent(RegisterActivity.this, LoginActivity.class);
                 startActivity(i);
                 finish();
             }
         });
 
-        Button loginButton = findViewById(R.id.btnLogin);
-        loginButton.setOnClickListener(new View.OnClickListener() {
+        Button registerButton = findViewById(R.id.btnRegister);
+        registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(LoginActivity.this, MainActivity.class);
+                Intent i = new Intent(RegisterActivity.this, MainActivity.class);
                 startActivity(i);
                 finish();
             }

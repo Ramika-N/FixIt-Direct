@@ -1,9 +1,26 @@
 <resources>
     <string name="app_name">FixIt-Direct</string>
-    <string name="login_welcome_txt">Welcome</string>
+    <string name="login_welcome_txt">Welcome Back</string>
     <string name="login_welcome_txt2">Log in to your account</string>
     <string name="login_forgot_pasword_txt">Forgot Password</string>
     <string name="login_btn_txt">Log In</string>
     <string name="login_to_register_btn_txt">Don\'t have an acoount?</string>
-    <string name="login_to_register_btn_txt2">Register</string>
+    <string name="login_to_register_btn_txt2">&#xA0; Register</string>
+    <string name="create_an_account_txt">Create an Account</string>
+    <string name="join_fixit_direct_to_get_started_txt">Join Fixit-Direct to get started</string>
+    <string name="register_full_name_txt">Full Name</string>
+    <string name="register_enter_your_full_name_txt"> Enter your full name</string>
+    <string name="register_email_address_txt">Email Address</string>
+    <string name="register_enter_your_email_txt">Enter your email</string>
+    <string name="register_password_txt">Password</string>
+    <string name="register_create_a_password_txt">Create a password</string>
+    <string name="register_btn_txt">Register</string>
+    <string name="register_already_have_an_account_txt">Already have an account?</string>
+    <string name="register_log_in_txt">&#xA0;Log In</string>
+    <string name="log_in_to_your_account_to_continue_txt">Log in to your account to continue</string>
+    <string name="login_enter_your_email_txt">Enter your email</string>
+    <string name="login_password_txt">Password</string>
+    <string name="login_enter_your_password_txt">Enter your password</string>
+    <string name="login_forgot_password_txt">Forgot Password?</string>
+    <string name="login_don_t_have_an_account_txt">Don\'t have an account?</string>
 </resources>

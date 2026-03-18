@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FixItDirect">
         <activity
+            android:name=".activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.LoginActivity"
             android:exported="false" />
         <activity
