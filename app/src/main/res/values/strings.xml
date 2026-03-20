@@ -23,4 +23,14 @@
     <string name="login_enter_your_password_txt">Enter your password</string>
     <string name="login_forgot_password_txt">Forgot Password?</string>
     <string name="login_don_t_have_an_account_txt">Don\'t have an account?</string>
+    <string name="hi_user_txt">Hi, User! 👋</string>
+    <string name="find_parts_and_technicians_instantly_txt">Find parts and technicians instantly</string>
+    <string name="locate_technician_txt">Locate\nTechnician</string>
+    <string name="find_pros_nearby_txt">Find pros nearby</string>
+    <string name="shop_nhardware_txt">Shop\nHardware</string>
+    <string name="buy_components_txt">Buy components</string>
+    <string name="special_offers_txt">Special Offers</string>
+    <string name="see_all_txt">See All</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
 </resources>
