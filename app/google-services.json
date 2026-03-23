@@ -1,6 +1,6 @@
 {
   "project_info": {
-    "project_number": "376578448933",
+    "project_number": "376578448931",
     "project_id": "fixit-direct",
     "storage_bucket": "fixit-direct.firebasestorage.app"
   },
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBE2VyACGmLYKchGihoy8zAl40L_R0TmT0"
+          "current_key": "******"
         }
       ],
       "services": {
