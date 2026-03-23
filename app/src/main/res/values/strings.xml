@@ -33,4 +33,7 @@
     <string name="see_all_txt">See All</string>
     <string name="open_nav">Open Navigation Drawer</string>
     <string name="close_nav">Close Navigation Drawer</string>
+    <string name="hardware_shop_txt">Hardware Shop</string>
+    <string name="search_components_txt">Search components...</string>
+    <string name="all_parts_txt">All Parts</string>
 </resources>

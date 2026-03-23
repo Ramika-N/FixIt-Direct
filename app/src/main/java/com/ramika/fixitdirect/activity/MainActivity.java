@@ -15,11 +15,16 @@ import androidx.core.view.GravityCompat;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.Fragment;
 
 import com.google.android.material.appbar.MaterialToolbar;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 import com.ramika.fixitdirect.R;
+import com.ramika.fixitdirect.fragment.CartFragment;
 import com.ramika.fixitdirect.fragment.HomeFragment;
+import com.ramika.fixitdirect.fragment.ProfileFragment;
+import com.ramika.fixitdirect.fragment.ShopFragment;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -45,6 +50,31 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new HomeFragment()).commit();
             navigationView.setCheckedItem(R.id.nav_home);
         }
+
+        // Bottom Navigation Bar
+        BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigationView);
+        bottomNavigationView.setOnItemSelectedListener(new com.google.android.material.navigation.NavigationBarView.OnItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                Fragment selectedFragment = null;
+                int itemId = item.getItemId();
+
+                if (itemId == R.id.bottom_home) {
+                    selectedFragment = new HomeFragment();
+                } else if (itemId == R.id.bottom_search) {
+                    selectedFragment = new ShopFragment();
+                } else if (itemId == R.id.bottom_cart) {
+                    selectedFragment = new CartFragment();
+                } else if (itemId == R.id.bottom_profile) {
+                    selectedFragment = new ProfileFragment();
+                }
+
+                if (selectedFragment != null) {
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, selectedFragment).commit();
+                }
+                return true;
+            }
+        });
     }
 
     @Override

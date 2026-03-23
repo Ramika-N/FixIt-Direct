@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "376578448933",
+    "project_id": "fixit-direct",
+    "storage_bucket": "fixit-direct.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376578448933:android:69f1ffc2a883b2365da9cc",
+        "android_client_info": {
+          "package_name": "com.ramika.fixitdirect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE2VyACGmLYKchGihoy8zAl40L_R0TmT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
