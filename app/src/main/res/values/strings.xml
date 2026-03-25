@@ -23,7 +23,7 @@
     <string name="login_enter_your_password_txt">Enter your password</string>
     <string name="login_forgot_password_txt">Forgot Password?</string>
     <string name="login_don_t_have_an_account_txt">Don\'t have an account?</string>
-    <string name="hi_user_txt">Hi, User! 👋</string>
+    <string name="hi_user_txt">Hi, User!</string>
     <string name="find_parts_and_technicians_instantly_txt">Find parts and technicians instantly</string>
     <string name="locate_technician_txt">Locate\nTechnician</string>
     <string name="find_pros_nearby_txt">Find pros nearby</string>
