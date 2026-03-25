@@ -36,4 +36,8 @@
     <string name="hardware_shop_txt">Hardware Shop</string>
     <string name="search_components_txt">Search components...</string>
     <string name="all_parts_txt">All Parts</string>
+    <string name="shop_results_txt">0 Results</string>
+    <string name="chipGroupCategory_microcontrollers">Microcontrollers</string>
+    <string name="chipGroupCategory_sensors">Sensors</string>
+    <string name="chipGroupCategory_tools">Tools</string>
 </resources>
